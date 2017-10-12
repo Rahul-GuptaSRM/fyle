@@ -32,7 +32,7 @@ app.get('/api',function(req,res)
   var r = req.param('bank_name');
 var data=[];
   for(var i = 0; i < dta.length; i++) {
-    if(p == dta[i].ifsc ||  q == dta[i].city || r == dta[i].bank_name){
+    if(p == dta[i].ifsc || (q == dta[i].city && r == dta[i].bank_name)){
 
      data.push(dta[i]); 
     }
