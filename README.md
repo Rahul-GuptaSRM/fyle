@@ -1,4 +1,4 @@
-# Fyle
+# Banking API
 Banking API
 
  REST service that can:
